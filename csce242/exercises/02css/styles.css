@@ -1,0 +1,36 @@
+/* Structural */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/cookies.jpg);
+    background-size: cover;
+}
+
+#content {
+    background-color: rgba(133, 162, 193, 0.812);
+    width: 90%;
+    padding: 15px;
+    margin: auto; /* center in the page */
+    border-radius: 5px;
+    border: 1.5px solid rgb(4, 4, 4);
+    box-shadow: 5px 5px 10px rgb(4, 4, 4);
+}
+
+header, main, footer {
+    padding: 5px;
+}
+
+header, footer{
+    background: rgba(51, 41, 44, 0.27);
+    color: rgb(0, 0, 0);
+
+}
+
+/* Navigation */
+
+
+/* Typography */
+
+h1 {
+    color: rgb(142, 45, 69);
+}
