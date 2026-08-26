@@ -25,9 +25,14 @@ p {
 }
 
 img {
+    width: 40%;
     padding: 5px;
     border: 2px solid rgb(142, 45, 69);
     margin: 5px;
+}
+
+#images {
+    text-align: center;
 }
 
 table {
