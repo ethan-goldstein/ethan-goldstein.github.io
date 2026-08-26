@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/cookies.jpg);
+    background-size: cover;
+}
+
+#content {
+    background-color: rgba(255, 240, 240, 0.85);
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    border: 2px solid rgb(90, 40, 50);
+}
+
+h1 {
+    color: rgb(142, 45, 69);
+}
+
+h2 {
+    color: rgb(90, 40, 50);
+}
+
+p {
+    color: rgb(40, 30, 30);
+}
+
+img {
+    padding: 5px;
+    border: 2px solid rgb(142, 45, 69);
+    margin: 5px;
+}
+
+table {
+    background-color: rgb(240, 200, 210);
+    border: 2px solid rgb(142, 45, 69);
+}
+
+th {
+    background-color: rgb(142, 45, 69);
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+a {
+    color: rgb(142, 45, 69);
+    text-decoration: none;
+}
+
+ul {
+    color: rgb(90, 40, 50);
+}
