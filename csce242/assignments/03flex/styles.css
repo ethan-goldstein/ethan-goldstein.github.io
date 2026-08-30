@@ -1,0 +1,124 @@
+body {
+    background:#eef1f5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#content {
+    width:80%;
+    margin:auto;
+}
+
+header {
+    background:#dfe7f2;
+}
+
+header h1 {
+    text-align:center;
+    color:#2f4858;
+    padding:20px;
+    margin:0;
+}
+
+/* Navigation */
+#main-nav ul {
+    padding-left:0;
+    margin:0;
+}
+
+#main-nav li {
+    list-style-type:none;
+    background:#4f6d7a;
+    text-align:center;
+    padding:10px;
+}
+
+#main-nav a {
+    color:white;
+    text-decoration:none;
+}
+
+/* Sidebar */
+aside {
+    background:#c8d6e5;
+    text-align:center;
+}
+
+aside h2 {
+    color:#2f4858;
+}
+
+aside ul {
+    padding-left:0;
+}
+
+aside li {
+    list-style-type:none;
+    background:white;
+    border-bottom:1px solid #4f6d7a;
+    padding:5px;
+}
+
+aside a {
+    color:#4f6d7a;
+    text-decoration:none;
+}
+
+/* Main Content */
+article {
+    background:#5b7c8d;
+}
+
+article h3 {
+    color:white;
+    margin:0;
+    padding:5px;
+}
+
+article p {
+    color:white;
+    padding:5px;
+}
+
+article img {
+    max-width:100%;
+    display:block;
+}
+
+.idea {
+    border-top:5px solid #eef1f5;
+}
+
+/* Footer */
+footer {
+    background:#2f4858;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* Larger Screens */
+@media only screen and (min-width:768px) {
+    .columns {
+        display:flex;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .three {
+        flex:3;
+    }
+
+    #main-nav ul {
+        display:flex;
+    }
+
+    #main-nav li {
+        flex:1;
+    }
+
+    .idea img {
+        width:20%;
+    }
+}
