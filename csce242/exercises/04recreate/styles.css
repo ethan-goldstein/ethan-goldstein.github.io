@@ -1,0 +1,312 @@
+/* Structure */
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content {
+    width:90%;
+    margin:auto;
+}
+
+img {
+    max-width:100%;
+}
+
+
+/* Header */
+
+#top-header {
+    background:black;
+    color:white;
+}
+
+#top-header .content {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#top-header p {
+    font-size:13px;
+}
+
+#top-nav ul {
+    display:flex;
+    list-style-type:none;
+    padding-left:0;
+    margin:0;
+}
+
+#top-nav li {
+    padding:15px 10px;
+}
+
+#top-nav a {
+    color:white;
+    text-decoration:none;
+    font-size:13px;
+}
+
+#school-header {
+    background:#73000a;
+    color:white;
+    padding:20px 0;
+}
+
+#school-header h1 {
+    margin:0;
+    font-family:Georgia, "Times New Roman", serif;
+}
+
+#main-nav {
+    background:white;
+    border-bottom:1px solid #cccccc;
+}
+
+#main-nav ul {
+    display:flex;
+    justify-content:space-between;
+    list-style-type:none;
+    padding-left:0;
+    margin:0;
+}
+
+#main-nav li {
+    padding:18px 5px;
+}
+
+#main-nav a {
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+/* Hero */
+
+#hero {
+    position:relative;
+}
+
+#hero img {
+    width:100%;
+    display:block;
+}
+
+#hero-text {
+    position:absolute;
+    bottom:0;
+    left:5%;
+    width:45%;
+    background:#73000a;
+    color:white;
+    padding:30px;
+}
+
+#hero-text h2 {
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:36px;
+    margin-top:0;
+}
+
+
+/* Columns */
+
+.columns {
+    display:flex;
+}
+
+.one {
+    flex:1;
+}
+
+.info {
+    padding:60px;
+}
+
+.info h2 {
+    color:#73000a;
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:36px;
+}
+
+.info p {
+    line-height:1.6;
+}
+
+.button {
+    background:#73000a;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+}
+
+
+/* Quote */
+
+#quote {
+    background:#eeeeee;
+    text-align:center;
+    padding:60px 0;
+}
+
+#quote .content {
+    width:60%;
+}
+
+#quote p:first-child {
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:24px;
+    line-height:1.5;
+}
+
+#quote h3 {
+    color:#73000a;
+}
+
+
+/* Cards */
+
+#cards {
+    display:flex;
+    gap:25px;
+    padding:60px 0;
+}
+
+.card {
+    flex:1;
+    background:#eeeeee;
+    padding-bottom:20px;
+}
+
+.card h2,
+.card p {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.card h2 {
+    color:#73000a;
+    font-family:Georgia, "Times New Roman", serif;
+}
+
+.card a {
+    color:#73000a;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+/* Connected */
+
+#connected {
+    background:#73000a;
+    color:white;
+    text-align:center;
+    padding:60px 0;
+}
+
+#connected h2 {
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:36px;
+}
+
+#connected-links {
+    display:flex;
+    justify-content:center;
+}
+
+#connected-links a {
+    color:white;
+    text-decoration:none;
+    border:2px solid white;
+    padding:15px 25px;
+    margin:10px;
+}
+
+
+/* Footer */
+
+#main-footer {
+    background:black;
+    color:white;
+    padding:50px 0;
+}
+
+#main-footer ul {
+    list-style-type:none;
+    padding-left:0;
+}
+
+#main-footer li {
+    margin-bottom:10px;
+}
+
+#main-footer a {
+    color:white;
+    text-decoration:none;
+}
+
+
+/* Small Screens */
+
+@media only screen and (max-width:768px) {
+
+    #top-header .content {
+        display:block;
+    }
+
+    #top-nav ul {
+        flex-wrap:wrap;
+    }
+
+    #main-nav ul {
+        display:block;
+    }
+
+    #main-nav li {
+        border-bottom:1px solid #cccccc;
+        padding:12px 0;
+    }
+
+    #hero-text {
+        position:static;
+        width:100%;
+    }
+
+    .columns {
+        display:block;
+    }
+
+    .info {
+        padding:30px;
+    }
+
+    #cards {
+        display:block;
+    }
+
+    .card {
+        margin-bottom:25px;
+    }
+
+    #quote .content {
+        width:85%;
+    }
+
+    #connected-links {
+        display:block;
+    }
+
+    #connected-links a {
+        display:block;
+        margin:10px auto;
+        width:200px;
+    }
+}
