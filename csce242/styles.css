@@ -97,10 +97,11 @@ main h2 {
 @media only screen and (min-width:768px) {
     .columns {
         display:flex;
+        flex-wrap:wrap;
     }
 
     .assignment {
-        flex:1;
+        flex:1 1 28%;
     }
 
     .project {
