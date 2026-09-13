@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--Ethan Goldstein - CSCE 242-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 5</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="content">
+            <header id="main-header">
+                <h1>Assignment 5</h1>
+                <h2>Introduction to JavaScript</h2>
+            </header>
+
+            <main>
+                <div class="columns">
+                    <section class="column" id="speech">
+                        <h3>Speech</h3>
+                        <div id="speech-bubble">Hi</div>
+                    </section>
+
+                    <section class="column">
+                        <h3>Beverage</h3>
+                        <p>
+                            Pick your morning beverage:
+                            <select id="beverage">
+                                <option value="Coffee">Coffee</option>
+                                <option value="Tea">Tea</option>
+                                <option value="Orange Juice">Orange Juice</option>
+                                <option value="Water">Water</option>
+                            </select>
+                        </p>
+                        <p id="beverage-message"></p>
+                    </section>
+
+                    <section class="column">
+                        <h3>Add a Sticker</h3>
+                        <div id="sticker-area">
+                            <img
+                                id="sticker-image"
+                                src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f31e.svg"
+                                alt="Sun">
+                            <span id="emoji"></span>
+                        </div>
+                    </section>
+                </div>
+            </main>
+
+            <footer>
+                <p>Ethan Goldstein</p>
+            </footer>
+        </div>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

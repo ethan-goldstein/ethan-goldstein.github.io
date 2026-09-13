@@ -1,0 +1,136 @@
+/* Ethan Goldstein */
+/* Structure */
+:root {
+    --background:#F1F4F6;
+    --headings:#4B6B73;
+    --accent:#E98A8A;
+    --cards-bg:#FFFDEB;
+    --cards-border:#A8C3C7;
+    --text:#4B6B73;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:var(--background);
+    margin:0px;
+    padding:0px;
+}
+
+#content {
+    margin:auto;
+}
+
+#main-header {
+    text-align:center;
+}
+
+#main-header h1 {
+    color:var(--headings);
+    margin-bottom:10px;
+}
+
+#main-header h2 {
+    color:var(--accent);
+}
+
+/* Columns */
+.columns {
+    padding:10px;
+}
+
+.column {
+    background-color:var(--cards-bg);
+    border:1px solid var(--cards-border);
+    min-height:250px;
+    margin-bottom:10px;
+    padding:10px;
+    position:relative;
+}
+
+.column h3 {
+    text-align:center;
+    color:var(--headings);
+}
+
+.column p {
+    color:var(--text);
+}
+
+/* Speech */
+#speech {
+    cursor:pointer;
+}
+
+#speech-bubble {
+    display:none;
+    background:white;
+    border:2px solid var(--headings);
+    border-radius:15px;
+    width:40px;
+    padding:10px;
+    margin:30px auto;
+    position:relative;
+    text-align:center;
+}
+
+#speech-bubble:after {
+    content:"";
+    position:absolute;
+    bottom:-12px;
+    right:8px;
+    border-width:12px 0 0 12px;
+    border-style:solid;
+    border-color:transparent transparent transparent var(--headings);
+}
+
+#speech-bubble.show-bubble {
+    display:block;
+}
+
+/* Beverage */
+#beverage-message {
+    padding:0px;
+}
+
+/* Sticker */
+#sticker-area {
+    position:relative;
+    text-align:center;
+}
+
+#sticker-image {
+    width:100px;
+    height:100px;
+    cursor:pointer;
+}
+
+#emoji {
+    position:absolute;
+    top:20px;
+    left:25%;
+    font-size:25px;
+}
+
+/* Footer */
+footer {
+    text-align:center;
+    color:var(--headings);
+}
+
+/* Responsive Design */
+
+/* 1000 px or larger */
+@media (min-width:1000px) {
+    #content {
+        width:80%;
+    }
+
+    .columns {
+        display:flex;
+    }
+
+    .column {
+        flex:1;
+        margin:10px;
+    }
+}
