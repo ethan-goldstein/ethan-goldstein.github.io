@@ -1,0 +1,139 @@
+
+/* Ethan Goldstein */
+
+:root {
+    --background: #F4F5EA;
+    --heading: #5E9194;
+    --accent: #F58C8C;
+    --border: #A9CFD1;
+    --section-bg: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: var(--heading);
+}
+
+#content {
+    background-color: var(--background);
+    padding: 20px;
+}
+
+#main-header {
+    text-align: center;
+    position: relative;
+}
+
+#main-header h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 36px;
+}
+
+#main-header h2 {
+    color: var(--accent);
+    margin-top: 5px;
+}
+
+/* Navigation */
+#main-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+#main-nav li {
+    text-align: center;
+    padding: 8px;
+}
+
+#main-nav a {
+    color: var(--heading);
+    text-decoration: none;
+}
+
+#main-nav a:hover {
+    cursor: pointer;
+}
+
+/* Mobile arrow */
+#toggle-nav {
+    text-align: left;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+#toggle-nav::before {
+    content: "\25BC";
+    font-size: 22px;
+}
+
+#toggle-nav.arrow-up::before {
+    content: "\25B2";
+}
+
+/* Exercise Sections */
+main section {
+    background-color: var(--section-bg);
+    border: 1px solid var(--border);
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 10px;
+}
+
+main section h3 {
+    margin-top: 0;
+}
+
+input {
+    width: 150px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+/* Hiding */
+.hidden {
+    display: none;
+}
+
+.hide-small {
+    display: none;
+}
+
+/* Larger Screens */
+@media (min-width: 768px) {
+    #content {
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .columns {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hide-small {
+        display: flex;
+    }
+
+    #toggle-nav {
+        display: none;
+    }
+
+    #main-nav li {
+        padding: 5px 0;
+    }
+
+    #main-nav li:not(:last-child)::after {
+        content: "|";
+        padding: 0 8px;
+        color: var(--heading);
+    }
+}
