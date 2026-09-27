@@ -1,0 +1,76 @@
+/* Ethan Goldstein */
+
+/* Structure */
+:root {
+    --background:#F1F4F6;
+    --headings:#4B6B73;
+    --accent:#E98A8A;
+    --content-bg:#FFFDEB;
+    --text:#4B6B73;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:var(--background);
+    margin:0px;
+    padding:0px;
+}
+
+#content {
+    width:90%;
+    max-width:700px;
+    margin:30px auto;
+    background-color:var(--content-bg);
+    padding:20px;
+    text-align:center;
+}
+
+/* Header */
+#main-header h1 {
+    color:var(--headings);
+    margin-bottom:10px;
+}
+
+#main-header h2 {
+    color:var(--accent);
+}
+
+/* Destination Picker */
+#destination-picker {
+    color:var(--text);
+}
+
+#destination-type {
+    margin-left:5px;
+}
+
+/* Destination Links */
+#destination-list {
+    margin:20px;
+}
+
+#destination-list a {
+    display:block;
+    color:var(--headings);
+    margin:10px;
+}
+
+/* Map */
+#map-area {
+    margin:20px auto;
+}
+
+#destination-map {
+    width:90%;
+    height:350px;
+    border:0px;
+}
+
+.hidden {
+    display:none;
+}
+
+/* Footer */
+footer {
+    color:var(--accent);
+}

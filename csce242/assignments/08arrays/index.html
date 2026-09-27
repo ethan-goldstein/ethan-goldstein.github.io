@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--Ethan Goldstein - CSCE 242-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 8 - Arrays</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div id="content">
+            <header id="main-header">
+                <h1>Assignment 8</h1>
+                <h2>Arrays</h2>
+            </header>
+
+            <main>
+                <p id="destination-picker">
+                    <label for="destination-type">Pick Your Destination Type</label>
+
+                    <select id="destination-type">
+                        <option value="">Select</option>
+                        <option value="mountains">Mountains</option>
+                        <option value="beaches">Beaches</option>
+                    </select>
+                </p>
+
+                <div id="destination-list"></div>
+
+                <div id="map-area" class="hidden">
+                    <iframe
+                        id="destination-map"
+                        title="Destination Map">
+                    </iframe>
+                </div>
+            </main>
+
+            <footer>
+                <p>@ethangoldstein.dev</p>
+            </footer>
+        </div>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
