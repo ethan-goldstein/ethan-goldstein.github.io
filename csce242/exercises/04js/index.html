@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<!--Ethan Goldstein - CSCE 242-->
 <html>
     <head>
         <title>JavaScript</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
     </head>
-
     <body>
         <div id="content">
             <header id="main-header">
                 <h1>JavaScript</h1>
-
                 <nav id="main-nav">
                     <ul class="columns">
                         <li><a href="index.html">Home</a></li>
@@ -24,19 +22,18 @@
                     </ul>
                 </nav>
             </header>
-
             <section id="hero">
-                <img src="https://dummyimage.com/1600x400/abc/0011ff.png"
-                    alt="JavaScript Hero">
-
-                <a href="#"
-                    class="hero-arrow"
-                    id="hero-arrow-right">&gt;</a>
-
-                <a href="#"
-                    class="hero-arrow"
-                    id="hero-arrow-left">&lt;</a>
+                <div id="slides">
+                    <img src="images/slideshow/boat.jpg">
+                    <img src="images/slideshow/hill.jpg" class="hidden">
+                    <img src="images/slideshow/nature-path.jpg" class="hidden">
+                    <img src="images/slideshow/water-mountains.jpg" class="hidden">
+                    <img src="images/slideshow/waterfall.jpg" class="hidden">
+                </div>
+                <a href="#" class="hero-arrow" id="hero-arrow-right">&gt;</a>
+                <a href="#" class="hero-arrow" id="hero-arrow-left">&lt;</a>
             </section>
         </div>
+        <script src="scripts/slideshow.js"></script>
     </body>
 </html>
