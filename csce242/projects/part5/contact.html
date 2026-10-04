@@ -2,6 +2,7 @@
 <!--Ethan Goldstein - CSCE 242-->
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Order & Contact - Sweet Expressions</title>
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -12,7 +13,9 @@
                 <h1>Sweet Expressions</h1>
 
                 <nav id="main-nav">
-                    <ul class="columns">
+                    <div id="toggle-nav"></div>
+
+                    <ul class="columns hide-small">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="options.html">Cookie Options</a></li>
@@ -147,5 +150,7 @@
                 </div>
             </footer>
         </div>
+
+        <script src="scripts/nav.js"></script>
     </body>
 </html>

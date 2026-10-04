@@ -2,6 +2,7 @@
 <!--Ethan Goldstein - CSCE 242-->
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gallery - Sweet Expressions</title>
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -12,7 +13,9 @@
                 <h1>Sweet Expressions</h1>
 
                 <nav id="main-nav">
-                    <ul class="columns">
+                    <div id="toggle-nav"></div>
+
+                    <ul class="columns hide-small">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="options.html">Cookie Options</a></li>
@@ -32,6 +35,28 @@
                         From birthdays and weddings to holidays and special
                         events, every cookie is made just for you.
                     </p>
+                </section>
+
+                <section id="slideshow">
+                    <div id="slide-frame">
+                        <div id="slides">
+                            <img src="images/birthdaycookies.jpg"
+                                alt="Birthday Cookies">
+                            <img src="images/weddingengagement.jpg"
+                                alt="Wedding and Engagement Cookies" class="hidden">
+                            <img src="images/holidaycookies.jpg"
+                                alt="Holiday Cookies" class="hidden">
+                            <img src="images/babycookies.jpg"
+                                alt="Baby Cookies" class="hidden">
+                            <img src="images/customsets.jpg"
+                                alt="Custom Cookie Sets" class="hidden">
+                        </div>
+
+                        <a href="#" id="slide-left" class="slide-arrow">&#10094;</a>
+                        <a href="#" id="slide-right" class="slide-arrow">&#10095;</a>
+                    </div>
+
+                    <div id="slide-dots"></div>
                 </section>
 
                 <section id="gallery">
@@ -124,5 +149,8 @@
                 </div>
             </footer>
         </div>
+
+        <script src="scripts/nav.js"></script>
+        <script src="scripts/slideshow.js"></script>
     </body>
 </html>

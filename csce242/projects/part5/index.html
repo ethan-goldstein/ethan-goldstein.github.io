@@ -2,6 +2,7 @@
 <!--Ethan Goldstein - CSCE 242-->
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sweet Expressions</title>
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -12,7 +13,9 @@
                 <h1>Sweet Expressions</h1>
 
                 <nav id="main-nav">
-                    <ul class="columns">
+                    <div id="toggle-nav"></div>
+
+                    <ul class="columns hide-small">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="options.html">Cookie Options</a></li>
@@ -68,6 +71,10 @@
                                 Custom designs made to make every birthday
                                 extra sweet.
                             </p>
+
+                            <p>
+                                <a href="gallery.html">See the Gallery</a>
+                            </p>
                         </section>
 
                         <section class="cookie-card">
@@ -96,6 +103,10 @@
                                 Festive custom cookies made for holidays,
                                 parties, and seasonal celebrations.
                             </p>
+
+                            <p>
+                                <a href="options.html">Cookie Options</a>
+                            </p>
                         </section>
                     </div>
                 </section>
@@ -107,17 +118,33 @@
 
                             <p>
                                 Every order is carefully designed and decorated
-                                to match your event, theme, and vision. Each set
-                                is made just for you.
+                                by hand to create cookies that are unique to your
+                                celebration. From the first idea to the final
+                                detail, Sweet Expressions makes every order personal.
                             </p>
                         </section>
 
                         <section>
-                            <h3>What You Can Expect</h3>
+                            <h3>Hand Decorated</h3>
 
-                            <p>Custom designs for your event</p>
-                            <p>Made with care and attention to detail</p>
-                            <p>Cookies created for all kinds of occasions</p>
+                            <p>
+                                Each cookie is individually decorated with care
+                                and attention to detail.
+                            </p>
+
+                            <h3>Made for Your Occasion</h3>
+
+                            <p>
+                                Designs can be customized to match your
+                                celebration, colors, and theme.
+                            </p>
+
+                            <h3>Made to Be Memorable</h3>
+
+                            <p>
+                                Beautiful cookies that add a personal and
+                                delicious touch to every special moment.
+                            </p>
                         </section>
                     </div>
                 </section>
@@ -126,8 +153,8 @@
                     <h2>Ready to Make Something Sweet?</h2>
 
                     <p>
-                        Tell us what you have in mind, and we'll help
-                        make it happen.
+                        Tell us about your event, theme, and ideas, and we'll
+                        help create custom cookies made just for you.
                     </p>
 
                     <p>
@@ -159,5 +186,7 @@
                 </div>
             </footer>
         </div>
+
+        <script src="scripts/nav.js"></script>
     </body>
 </html>
