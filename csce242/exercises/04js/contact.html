@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<!--Ethan Goldstein - CSCE 242-->
 <html>
     <head>
         <title>JavaScript</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
     </head>
-
     <body>
         <div id="content">
             <header id="main-header">
                 <h1>JavaScript</h1>
-
                 <nav id="main-nav">
                     <ul class="columns">
                         <li><a href="index.html">Home</a></li>
@@ -24,14 +22,17 @@
                     </ul>
                 </nav>
             </header>
-
             <main>
                 <h2 id="page-title">Contact Us</h2>
-
-                <div class="projects">
-
-                </div>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="f45f3906-4be3-4f95-a4bd-820e85c09623">
+                    <input type="text" name="name" required>
+                    <input type="email" name="email" required>
+                    <textarea name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
             </main>
         </div>
+        <script src="scripts/contact.js"></script>
     </body>
 </html>
