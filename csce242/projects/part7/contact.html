@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--Ethan Goldstein - CSCE 242-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order & Contact - Sweet Expressions</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div id="content">
+            <header id="main-header">
+                <h1>Sweet Expressions</h1>
+
+                <nav id="main-nav">
+                    <div id="toggle-nav"></div>
+
+                    <ul class="columns hide-small">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="options.html">Cookie Options</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Order & Contact</a></li>
+                        <li><a href="details.html">Cookie Set Details</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section class="page-title">
+                    <h2>Let's Create Something Sweet</h2>
+
+                    <p>
+                        Tell us a little about your celebration and we'll help
+                        bring your cookie ideas to life.
+                    </p>
+                </section>
+
+                <section id="order">
+                    <div class="columns">
+                        <section id="order-form">
+                            <h2>Request a Custom Order</h2>
+
+                            <form id="contact-form">
+                                <p>
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </p>
+
+                                <p>
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" required>
+                                </p>
+
+                                <p>
+                                    <label for="date">Event Date</label>
+                                    <input type="date" id="date" name="event_date" required>
+                                </p>
+
+                                <p>
+                                    <label for="occasion">Occasion</label>
+                                    <input type="text" id="occasion" name="occasion" required>
+                                </p>
+
+                                <p>
+                                    <label for="number">Number of Cookies</label>
+                                    <input type="number" id="number" name="number_of_cookies" min="12" required>
+                                </p>
+
+                                <p>
+                                    <label for="theme">Theme / Colors</label>
+                                    <input type="text" id="theme" name="theme">
+                                </p>
+
+                                <p>
+                                    <label for="message">Design Ideas</label>
+                                    <textarea id="message" name="message" rows="5"></textarea>
+                                </p>
+
+                                <button type="submit">Send Order Request</button>
+
+                                <p id="result"></p>
+                            </form>
+                        </section>
+
+                        <aside id="order-info">
+                            <section>
+                                <h2>Get in Touch</h2>
+                                <p>Instagram: @_sweetexpressions_</p>
+                                <p>Email: Sweet Expressions</p>
+                            </section>
+
+                            <section>
+                                <h2>Before You Order</h2>
+
+                                <p>
+                                    Please include your event date, number of
+                                    cookies, theme, colors, and any design ideas
+                                    you have.
+                                </p>
+                            </section>
+                        </aside>
+                    </div>
+                </section>
+
+                <section id="find-us">
+                    <div class="columns">
+                        <section id="find-us-text">
+                            <h2>Where We Bake</h2>
+
+                            <p>
+                                Sweet Expressions bakes out of Columbia, South
+                                Carolina. All orders are picked up locally, and
+                                we'll send you the exact pickup spot when we
+                                confirm your order.
+                            </p>
+                        </section>
+
+                        <section id="find-us-map">
+                            <iframe src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sColumbia,+SC!6i12"
+                                title="Map of Columbia, South Carolina"
+                                loading="lazy"></iframe>
+                        </section>
+                    </div>
+                </section>
+
+                <section id="next">
+                    <h2>What Happens Next?</h2>
+
+                    <div class="columns">
+                        <section>
+                            <h3>1</h3>
+                            <h4>Submit Your Request</h4>
+                            <p>
+                                Send us the details for your custom cookie order.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h3>2</h3>
+                            <h4>We'll Be in Touch</h4>
+                            <p>
+                                We'll follow up to talk about your ideas and
+                                order details.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h3>3</h3>
+                            <h4>We Create Your Cookies</h4>
+                            <p>
+                                Your custom cookies are created for your
+                                special event.
+                            </p>
+                        </section>
+                    </div>
+                </section>
+            </main>
+
+            <footer id="main-footer">
+                <div class="columns">
+                    <section>
+                        <h3>Sweet Expressions</h3>
+                        <p>Custom cookies made for life's sweetest moments.</p>
+                        <p>&copy; 2026 Sweet Expressions</p>
+                    </section>
+
+                    <nav>
+                        <ul class="columns">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="options.html">Cookie Options</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Order & Contact</a></li>
+                            <li><a href="details.html">Cookie Set Details</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+
+        <script src="scripts/nav.js"></script>
+        <script src="scripts/contact.js"></script>
+    </body>
+</html>

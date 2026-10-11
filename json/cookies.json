@@ -1,0 +1,83 @@
+[
+    {
+        "_id": 1,
+        "name": "Birthday Cookies",
+        "img_name": "images/birthdaycookies.jpg",
+        "category": "Birthdays",
+        "price": "$36 per dozen",
+        "min_order": 12,
+        "description": "Bright, colorful cookies with names, ages, and party themes."
+    },
+    {
+        "_id": 2,
+        "name": "School Cookies",
+        "img_name": "images/schoolcookies.jpg",
+        "category": "School Events",
+        "price": "$32 per dozen",
+        "min_order": 24,
+        "description": "Cookies for teachers, graduations, and the first day of school."
+    },
+    {
+        "_id": 3,
+        "name": "Holiday Cookies",
+        "img_name": "images/holidaycookies.jpg",
+        "category": "Holidays",
+        "price": "$34 per dozen",
+        "min_order": 12,
+        "description": "Seasonal designs for Christmas, Halloween, Easter, and more."
+    },
+    {
+        "_id": 4,
+        "name": "Wedding & Engagement",
+        "img_name": "images/weddingengagement.jpg",
+        "category": "Weddings",
+        "price": "$42 per dozen",
+        "min_order": 24,
+        "description": "Elegant sets with the couple's names, wedding date, and colors."
+    },
+    {
+        "_id": 5,
+        "name": "Baby Cookies",
+        "img_name": "images/babycookies.jpg",
+        "category": "Baby Showers",
+        "price": "$38 per dozen",
+        "min_order": 12,
+        "description": "Soft colors and sweet designs for gender reveals and baby showers."
+    },
+    {
+        "_id": 6,
+        "name": "Custom Sets",
+        "img_name": "images/customsets.jpg",
+        "category": "Any Occasion",
+        "price": "$40 per dozen",
+        "min_order": 12,
+        "description": "Tell us your idea and we will design a set made just for you."
+    },
+    {
+        "_id": 7,
+        "name": "Branded Cookies",
+        "img_name": "images/brandedcookies.jpg",
+        "category": "Business",
+        "price": "$45 per dozen",
+        "min_order": 36,
+        "description": "Cookies with your logo for openings, clients, and company events."
+    },
+    {
+        "_id": 8,
+        "name": "Party Favor Cookies",
+        "img_name": "images/partyfavorcookies.jpg",
+        "category": "Party Favors",
+        "price": "$3.50 each",
+        "min_order": 24,
+        "description": "Individually wrapped cookies that guests can take home."
+    },
+    {
+        "_id": 9,
+        "name": "Cookie Kits",
+        "img_name": "images/cookiekits.jpg",
+        "category": "Decorate at Home",
+        "price": "$28 per kit",
+        "min_order": 1,
+        "description": "Plain cookies, icing, and sprinkles so you can decorate your own."
+    }
+]

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--Ethan Goldstein - CSCE 242-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery - Sweet Expressions</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div id="content">
+            <header id="main-header">
+                <h1>Sweet Expressions</h1>
+
+                <nav id="main-nav">
+                    <div id="toggle-nav"></div>
+
+                    <ul class="columns hide-small">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="options.html">Cookie Options</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Order & Contact</a></li>
+                        <li><a href="details.html">Cookie Set Details</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section class="page-title">
+                    <h2>Cookie Gallery</h2>
+
+                    <p>
+                        Take a look at some of our favorite sweet creations.
+                        From birthdays and weddings to holidays and special
+                        events, every cookie is made just for you.
+                    </p>
+                </section>
+
+                <section id="slideshow">
+                    <div id="slide-frame">
+                        <div id="slides">
+                            <img src="images/birthdaycookies.jpg"
+                                alt="Birthday Cookies">
+                            <img src="images/weddingengagement.jpg"
+                                alt="Wedding and Engagement Cookies" class="hidden">
+                            <img src="images/holidaycookies.jpg"
+                                alt="Holiday Cookies" class="hidden">
+                            <img src="images/babycookies.jpg"
+                                alt="Baby Cookies" class="hidden">
+                            <img src="images/customsets.jpg"
+                                alt="Custom Cookie Sets" class="hidden">
+                        </div>
+
+                        <a href="#" id="slide-left" class="slide-arrow">&#10094;</a>
+                        <a href="#" id="slide-right" class="slide-arrow">&#10095;</a>
+                    </div>
+
+                    <div id="slide-dots"></div>
+                </section>
+
+                <section id="gallery">
+                    <div id="cookie-list"></div>
+
+                    <p class="center">
+                        <a href="options.html" class="button">View More</a>
+                    </p>
+                </section>
+            </main>
+
+            <footer id="main-footer">
+                <div class="columns">
+                    <section>
+                        <h3>Sweet Expressions</h3>
+                        <p>Custom cookies made for life's sweetest moments.</p>
+                        <p>&copy; 2026 Sweet Expressions</p>
+                    </section>
+
+                    <nav>
+                        <ul class="columns">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="options.html">Cookie Options</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Order & Contact</a></li>
+                            <li><a href="details.html">Cookie Set Details</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+
+        <script src="scripts/nav.js"></script>
+        <script src="scripts/slideshow.js"></script>
+        <script src="scripts/gallery.js"></script>
+    </body>
+</html>
