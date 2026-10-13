@@ -93,6 +93,15 @@ main h2 {
     line-height:1.4;
 }
 
+.project-links {
+    text-align:center;
+}
+
+.project-links a {
+    text-decoration:underline;
+    margin:0 10px;
+}
+
 /* Larger Screens */
 @media only screen and (min-width:768px) {
     .columns {
